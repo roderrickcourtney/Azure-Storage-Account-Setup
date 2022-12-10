@@ -3,7 +3,7 @@
 </p>
 
 <h1>Microsoft Azure Storage Account</h1>
-This tutorial displays how to create a cloud storage account via Azure.<br />
+This tutorial teaches how to deploy a cloud storage account via Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -19,8 +19,8 @@ This tutorial displays how to create a cloud storage account via Azure.<br />
 - Step 1: Create Azure Account
 - Step 2: Create Resource Group
 - Step 3: Create Storage Account
-- Step 4: 
-- Step 5:
+- Step 4: Create Container
+- Step 5: Upload to Storage Account
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -36,7 +36,7 @@ Go to official Microsoft Azure website to create an account. Once the account is
 <img src="https://imgur.com/NQ0WqAC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-For this step search resource group in the Azure search bar -> create resource group title RG-Storage-Account". Make sure to use your desired region and place the RG into the correct subscription. For the subscription box, since we only have one subscription the RG will default to that location. Click "create".
+For this step search resource group in the Azure search bar --> create resource group title RG-Storage-Account". Make sure to use your desired region and place the RG into the correct subscription. For the subscription box, since we only have one subscription the RG will default to that location. Click "create".
 </p>
 <br />
 
@@ -49,17 +49,17 @@ Next, search storage account in the Azure search bar to bring up that section. C
 <br />
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/UXQMBUX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-okk.
+A "container" is similar to a folder. You can have multiple containers with different files and permissions attached to them. Deploy a container within the created storage account to prepare for file uploads. Storage Account --> your storage account --> containers --> create new container. Name the container and adjust the access level to private or public depending on your needs. 
 </p>
 <br />
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tPyNtMw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-okk.
+This is the final step. Search and open Notepad on your PC. Create a new random note titled anything you want and save it. Lastly, go back into your storage account container created in the previous step and upload the note into your cloud storage account. You can also edit the file while it is in your cloud account if need be. That is it for this lesson, thank you for viewing!
 </p>
 <br />
