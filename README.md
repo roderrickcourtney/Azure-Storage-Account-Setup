@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img src="https://imgur.com/IDf9K3v.png" height="40%" width="40%" alt="Microsoft Azure Logo"/>
 </p>
 
 <h1>Microsoft Azure Storage Account</h1>
@@ -17,9 +17,9 @@ This tutorial teaches how to deploy a cloud storage account via Azure.<br />
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Create Azure Account
-- Step 2: Create Resource Group
-- Step 3: Create Storage Account
-- Step 4: Create Container
+- Step 2: Deploy Resource Group
+- Step 3: Deploy Storage Account
+- Step 4: Deploy Container
 - Step 5: Upload to Storage Account
 
 <h2>Deployment and Configuration Steps</h2>
