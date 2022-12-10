@@ -24,7 +24,7 @@ This tutorial teaches how to deploy a cloud storage account via Azure.<br />
 <img src="https://imgur.com/1kHoC6I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Search and download Microsoft Azure to create an account. Once the account is created, a subscription will be auto deployed for you (if not then proceed to create one) please view above picture and follow the prompts. Click create. This subscription is where the future storage account will reside once made. 
+Search and download Microsoft Azure to create an account. Once the account is created, a subscription will be auto deployed for you (if not then proceed to create one) please view above picture and follow the prompts. This subscription is where the future storage account will reside once made. 
 </p>
 <br />
 
@@ -32,7 +32,7 @@ Search and download Microsoft Azure to create an account. Once the account is cr
 <img src="https://imgur.com/NQ0WqAC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-For this step search resource group in the Azure search bar --> create a resource group titled RG-Storage-Account". Make sure to use your desired region and place the RG into the correct subscription. For the subscription box, since we only have one subscription, the RG will default to that location. Click "create".
+For this step search resource group in the Azure search bar --> create a resource group titled "RG-Storage-Account". Make sure to use your desired region and place the RG into the correct subscription. For the subscription box, since we only have one subscription, the RG will default to that location. Click "create".
 </p>
 <br />
 
@@ -40,7 +40,7 @@ For this step search resource group in the Azure search bar --> create a resourc
 <img src="https://imgur.com/b2fFmWW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, search storage account in the Azure search bar --> Click "create storage account". Make sure you place this account in the subscription and resource group created in the previous steps. As a side note, the storage account title must be globally unique. 
+Next, search "storage account" in the Azure search bar --> Click "create storage account". Make sure you place this account in the subscription and resource group created in the previous steps. As a side note, the storage account title must be globally unique. 
 </p>
 <br />
 
@@ -48,7 +48,7 @@ Next, search storage account in the Azure search bar --> Click "create storage a
 <img src="https://imgur.com/UXQMBUX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-A "container" is similar to a folder. You can have multiple containers with different files and permissions attached to them. Deploy a container within the created storage account to prepare for file uploads. Select storage Account --> your storage account --> containers --> create new container. Name the container and adjust the access level to private or public depending on your needs. 
+A "container" is similar to a folder. You can have multiple containers with different files and permissions attached to them. Deploy a container within the created storage account to prepare for file uploads. Select "storage Account" --> your storage account --> containers --> create new container. Name the container and adjust the access level to private or public depending on your needs. 
 </p>
 <br />
 
@@ -57,6 +57,6 @@ A "container" is similar to a folder. You can have multiple containers with diff
 <img src="https://imgur.com/tPyNtMw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This is the final step. Open Notepad on your PC --> Create a new random note (titled test) --> save it --> click your storage account container --> upload the note into your cloud storage account. You can also edit the file while it is in your cloud account if need be. That is it for this lesson, thank you for viewing!
+This is the final step. Open "Notepad" on your PC --> Create a new random note (titled test) --> save it --> click your storage account container --> upload the note into your cloud storage account. You can also edit the file while it is in your cloud account if need be. That is it for this lesson, thank you for viewing!
 </p>
 <br />
